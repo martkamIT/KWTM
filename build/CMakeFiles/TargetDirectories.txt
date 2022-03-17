@@ -1,4 +1,3 @@
 C:/Users/Marty/Documents/STUDIA/KWTM/project/build/CMakeFiles/Laborka.dir
 C:/Users/Marty/Documents/STUDIA/KWTM/project/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Marty/Documents/STUDIA/KWTM/project/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Marty/Documents/STUDIA/KWTM/project/build/Trygonometria/CMakeFiles/Trygonometria.dir

@@ -192,7 +192,7 @@ PierwszyProgram_IS_TOP_LEVEL:STATIC=ON
 PierwszyProgram_SOURCE_DIR:STATIC=C:/Users/Marty/Documents/STUDIA/KWTM/project/src
 
 //Czy argumentami funkcji trygonometrycznych maja byc stopnie
-USE_TRIGONOMETRY_DEGREE:BOOL=ON
+USE_TRIGONOMETRY_DEGREE:BOOL=OFF
 
 
 ########################
@@ -279,7 +279,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
