@@ -1,24 +1,24 @@
-//#ifdef USE_TRIGONOMETRY_DEGREE
-//    #include trygonometria.h
-//#endif
 #include <iostream>
-#include <trygonometria.h>
+#include <LaborkaConfig.h>
+
+#ifdef USE_TRIGONOMETRY_DEGREE
+    #include <trygonometria.h>
+#else
+    #include <cmath>
+#endif
+
+#define PI 3.14159265358979323846
 
 int main() 
 {
-    std::cout<<"Hello World!\n";
+    std::cout<<"TRIGONOMETRY COS:\n";
     double result = 0;
-    /*#ifdef USE_TRIGONOMETRY_DEGREE
+
+    #ifdef USE_TRIGONOMETRY_DEGREE
         result = cos(45.0);
     #else
-        result = cos(pi/4.0);
-    #endif*/
-    result = cos(90);
-    
-    //sin(60);
-    //cos(60);
-    //tg(60);
-    //ctg(60);
+        result = cos(PI/4.0);
+    #endif
 
     std::cout<<result<<std::endl;
 }
