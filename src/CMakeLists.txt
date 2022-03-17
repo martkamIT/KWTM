@@ -17,3 +17,5 @@ configure_file (
     "${PROJECT_BINARY_DIR}/LaborkaConfig.h"
     )
 include_directories("${PROJECT_BINARY_DIR}")
+
+enable_testing()
