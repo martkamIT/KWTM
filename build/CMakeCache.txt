@@ -191,6 +191,9 @@ PierwszyProgram_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 PierwszyProgram_SOURCE_DIR:STATIC=C:/Users/Marty/Documents/STUDIA/KWTM/project/src
 
+//Czy argumentami funkcji trygonometrycznych maja byc stopnie
+USE_TRIGONOMETRY_DEGREE:BOOL=ON
+
 
 ########################
 # INTERNAL cache entries

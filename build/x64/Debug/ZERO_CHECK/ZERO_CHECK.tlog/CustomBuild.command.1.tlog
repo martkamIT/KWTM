@@ -1,0 +1,10 @@
+^C:\USERS\MARTY\DOCUMENTS\STUDIA\KWTM\PROJECT\BUILD\CMAKEFILES\4A11581AA6F829C0C6E1A59C72A39CFC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Marty/Documents/STUDIA/KWTM/project/src -BC:/Users/Marty/Documents/STUDIA/KWTM/project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Marty/Documents/STUDIA/KWTM/project/build/PierwszyProgram.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

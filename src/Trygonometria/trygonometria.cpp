@@ -1,7 +1,7 @@
 #include "trygonometria.h"
 #include <cmath>
 
-#define PI 3.14159265
+#define PI 3.14159265358979323846
 
 double degreemath::sin(double degree) {
 //zamiana stopni na radiany: pi radianów = 180 stopni
@@ -13,13 +13,13 @@ double degreemath::cos(double degree) {
 double radian =  degree * (PI / 180.0);
 return std::cos(radian); //funkcja biblioteczna z piku <cmath>
 }
-double degreemath::tg(double degree) {
+double degreemath::tan(double degree) {
 //zamiana stopni na radiany: pi radianów = 180 stopni
 double radian =  degree * (PI / 180.0);
-return std::tg(radian); //funkcja biblioteczna z piku <cmath>
+return std::tan(radian); //funkcja biblioteczna z piku <cmath>
 }
-double degreemath::ctg(double degree) {
+double degreemath::ctan(double degree) {
 //zamiana stopni na radiany: pi radianów = 180 stopni
 double radian =  degree * (PI / 180.0);
-return std::ctg(radian); //funkcja biblioteczna z piku <cmath>
+return 1/std::tan(radian); //funkcja biblioteczna z piku <cmath>
 }

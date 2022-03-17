@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,10 +103,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -129,7 +129,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -231,10 +231,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Marty\Documents\STUDIA\KWTM\project\build;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\Trygonometria;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -268,7 +268,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCXXCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeRCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCXXCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeRCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeSystem.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\LaborkaConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Marty/Documents/STUDIA/KWTM/project/src/CMakeLists.txt</Message>
@@ -281,7 +281,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCXXCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeRCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCXXCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeRCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeSystem.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\LaborkaConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Marty/Documents/STUDIA/KWTM/project/src/CMakeLists.txt</Message>
@@ -294,7 +294,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCXXCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeRCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCXXCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeRCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeSystem.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\LaborkaConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Marty/Documents/STUDIA/KWTM/project/src/CMakeLists.txt</Message>
@@ -307,7 +307,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCXXCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeRCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeCXXCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeRCCompiler.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\3.22.3\CMakeSystem.cmake;C:\Users\Marty\Documents\STUDIA\KWTM\project\src\LaborkaConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marty\Documents\STUDIA\KWTM\project\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>

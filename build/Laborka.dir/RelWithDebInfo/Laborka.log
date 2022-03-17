@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Marty/Documents/STUDIA/KWTM/project/src/CMakeLists.txt
+  main.cpp
+C:\Users\Marty\Documents\STUDIA\KWTM\project\src\main.cpp(22,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Laborka.vcxproj -> C:\Users\Marty\Documents\STUDIA\KWTM\project\build\RelWithDebInfo\Laborka.exe
